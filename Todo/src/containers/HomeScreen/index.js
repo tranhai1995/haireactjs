@@ -21,7 +21,7 @@ class HomeScreen extends React.Component{
         const user = {
         name: this.state.name,
         complete :true,
-        };
+    };
         await axios.post('http://5d36d86c86300e0014b647c7.mockapi.io/todos', user )
         this.componentDidMount();
     }
